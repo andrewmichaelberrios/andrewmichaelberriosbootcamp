@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/ae51d72b58.js" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+<!--HEADER-->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="media/gulproast-logo-redesign-white.png" alt="Gulp Roast Logo" title="Gulp Roast Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="about.html"><span class="fa-solid fa-user" aria-hidden="true"></span><span class="sr-only">Profile Icon</span>About</a>
+                </li>
+                <li>
+                    <a href="products.html"><span class="fa-solid fa-mug-saucer" aria-hidden="true"></span><span class="sr-only">Coffee Cup Icon</span>Products</a>
+                </li>
+                <li>
+                    <a href="location.html"><span class="fa-solid fa-location-dot" aria-hidden="true"></span><span class="sr-only">Map Finder Icon</span>Location</a>
+                </li>
+                <li>
+                    <a href="contact.html"><span class="fa-solid fa-phone" aria-hidden="true"></span><span class="sr-only">Phone Icon</span>Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<!--BODYCONTENT-->
+    <div class="bodyContentLocation">
+        <section>
+            <article>
+                <h1>On The Map</h1>
+                <p>
+                    200 Fisherman's Dock, San Francisco, CA 94158
+                </p>
+                <button onclick="window.location.href='contact.html';">Contact Us</button>
+            </article>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d788.0277200376298!2d-122.41134047077736!3d37.810871758259275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580fd1b76abb3%3A0xe73f5d1898a8f2a5!2sPier%2039%2C%20San%20Francisco%2C%20CA%2094133!5e0!3m2!1sen!2sus!4v1677960551843!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </div>
+
+    <div class="formContent">
+        <h1>Follow Us</h1>
+        <h2>Subscribe To Our Newsletter For Updates And More!</h2>
+        <form action="#">
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+    </div>
+    
+<!--FOOTER-->
+    <div class="backgroundImageBottom">
+    </div>
+    <footer>
+        <p>
+            Copyright 2022 Gulp Roast Coffee. All rights reserved.
+        </p>
+        <ul>
+            <li>
+                <a href="#"><span class="fa-brands fa-facebook" aria-hidden="true"></span><span class="sr-only">Facebook Icon</span></a>
+            </li>
+            <li>
+                <a href="#"><span class="fa-brands fa-twitter" aria-hidden="true"></span><span class="sr-only">Twitter Icon</span></a>
+            </li>
+            <li>
+                <a href="#"><span class="fa-brands fa-instagram" aria-hidden="true"></span><span class="sr-only">Instagram Icon</span></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
